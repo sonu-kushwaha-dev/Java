@@ -45,6 +45,9 @@ public class HashMapExample2 {
 		
 		System.out.println(map3);
 		
+		map3.forEach((key,value)-> System.out.println(key +":" +value));
+
+		
 
 	}
 
